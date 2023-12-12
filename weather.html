@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Weather App</h5>
+          <label for="cityInput">Enter City:</label>
+          <input type="text" id="cityInput" placeholder="e.g., New York">
+          <button class="btn btn-primary" id="submitBtn" type="button" onClick="getWeather()">Get Weather</button>
+          <p id="weatherDescription"></p>
+          <p id="temperature"></p>
+        </div>
+        <script src="weather.js"></script>
+      
+      </div>
+</body>
+</html>
